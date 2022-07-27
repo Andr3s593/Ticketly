@@ -1,0 +1,11 @@
+#body{
+    margin: 0px;
+}
+#color-navbar{
+    background: rgb(238, 132, 113);
+    margin-top: -10px;
+    font-size: 20px;
+}
+#footer-color{
+    background: rgb(238, 132, 113);
+}

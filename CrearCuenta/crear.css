@@ -1,0 +1,292 @@
+/* ENCABEZADO */
+.header img{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+.header{
+    background-color: #FFAFCC;
+    height: 80px;
+}
+.header h1{
+    position: absolute;
+    left: 1200px;
+    top: 15px;
+}
+@media (min-width: 180px ) and (max-width: 480px ){
+    .header h1{
+        position: absolute;
+        left: 300px;
+        top: 20px;
+    }
+}
+/* FIN ENCABEZADO */
+
+/* registro*/
+.registrate{
+    background-color: #cfbaf0bd;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    left: 620px;
+    top: 90px;
+    border-radius: 20px 20px;
+    z-index: 1;
+}
+.registrate h2{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.registro{
+    background-color: #ffafcc;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 500px;
+    top: 140px;
+    border-radius: 20px 20px;
+}
+.registro button{
+    position: absolute;
+    top: 500px;
+    left: 180px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px 15px;
+    background-image: linear-gradient(270deg, #a07fff 0, #b379fa 12.5%, #c472f0 25%, #d26ce6 37.5%, #df65db 50%, #ea5fcf 62.5%, #f359c3 75%, #fa54b6 87.5%, #ff50a9 100%);
+    border-color: #FFAFCC;
+    font-size: 25px;
+}
+.boton a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.usuario input{
+    width:250px;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+.usuario label{
+    position: absolute;
+    left: 130px;
+    font-size: 25px;
+    top: 50px;
+}
+.correo input{
+    position: absolute;
+    top: 210px;
+    width:250px;
+    left: 130px;
+}
+.correo label{
+    position: absolute;
+    top: 150px;
+    position: absolute;
+    left: 130px;
+    font-size: 25px;
+}
+.contraseña input{
+    position: absolute;
+    top: 320px;
+    width:250px;
+    left: 130px;
+}
+.contraseña  label{
+    position: absolute;
+    top: 265px;
+    position: absolute;
+    left: 130px;
+    font-size: 25px;
+}
+.confcontraseña input{
+    position: absolute;
+    top: 440px;
+    width:250px;
+    left: 130px;
+}
+.confcontraseña  label{
+    position: absolute;
+    top: 380px;
+    position: absolute;
+    left: 130px;
+    font-size: 25px;
+}
+@media (min-width: 180px ) and (max-width: 480px ){
+    .registrate{
+        background-color: #cfbaf0bd;
+        width: 250px;
+        height: 80px;
+        position: absolute;
+        left: 100px;
+        top: 90px;
+        border-radius: 20px 20px;
+        z-index: 1;
+    }
+    .registrate h2{
+        position: absolute;
+        top: 15px;
+        left: 70px;
+    }
+    .registro{
+        background-color: #ffafcc;
+        width: 415px;
+        height: 600px;
+        position: absolute;
+        left: 10px;
+        top: 140px;
+        border-radius: 20px 20px;
+    }
+    .registro button{
+        position: absolute;
+        top: 500px;
+        left: 140px;
+        width: 150px;
+        height: 50px;
+        border-radius: 15px 15px;
+        background-image: linear-gradient(270deg, #a07fff 0, #b379fa 12.5%, #c472f0 25%, #d26ce6 37.5%, #df65db 50%, #ea5fcf 62.5%, #f359c3 75%, #fa54b6 87.5%, #ff50a9 100%);
+        border-color: #FFAFCC;
+        font-size: 25px;
+    }
+    .boton a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .usuario input{
+        width:250px;
+        position: absolute;
+        left: 90px;
+        top: 100px;
+    }
+    .usuario label{
+        position: absolute;
+        left: 90px;
+        font-size: 25px;
+        top: 50px;
+    }
+    .correo input{
+        position: absolute;
+        top: 210px;
+        width:250px;
+        left: 90px;
+    }
+    .correo label{
+        position: absolute;
+        top: 150px;
+        position: absolute;
+        left: 90px;
+        font-size: 25px;
+    }
+    .contraseña input{
+        position: absolute;
+        top: 320px;
+        width:250px;
+        left: 90px;
+    }
+    .contraseña  label{
+        position: absolute;
+        top: 265px;
+        position: absolute;
+        left: 90px;
+        font-size: 25px;
+    }
+    .confcontraseña input{
+        position: absolute;
+        top: 440px;
+        width:250px;
+        left: 90px;
+    }
+    .confcontraseña  label{
+        position: absolute;
+        top: 380px;
+        position: absolute;
+        left: 90px;
+        font-size: 25px;
+    }
+}
+/*fin registro*/
+/* footer */
+.footer {
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    color: white;
+    width: 1423px;
+    height: 120px;
+}
+.footer h4{
+    position: absolute;
+    left: 550px;
+    top: 5px;
+}
+.instagram img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 490px;
+    top: 25px;
+}
+.instagram h5{
+    position: absolute;
+    left: 555px;
+    top:55px;
+    color: white;
+}
+.facebook img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 700px;
+    top: 50px;
+}
+.facebook h5{
+    position: absolute;
+    left: 745px;
+    top:55px;
+    color: white;
+}
+@media (min-width: 180px ) and (max-width: 480px ){
+    .footer {
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        color: white;
+        width: 431px;
+        height: 113px;
+    }
+    .footer h4{
+        position: absolute;
+        left: 90px;
+        top: 5px;
+    }
+    .instagram img{
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        left: 10px;
+        top: 25px;
+    }
+    .instagram h5{
+        position: absolute;
+        left: 85px;
+        top:55px;
+        color: white;
+    }
+    .facebook img{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 250px;
+        top: 50px;
+    }
+    .facebook h5{
+        position: absolute;
+        left: 300px;
+        top:55px;
+        color: white;
+    }
+}
+/* fin footer*/

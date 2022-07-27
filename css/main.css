@@ -1,0 +1,14 @@
+nav{
+    background:#FFAFCC; 
+    height: 80px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.5vw;
+}
+.imagen-editada{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+}
+.separacion{
+    height:20px;
+}

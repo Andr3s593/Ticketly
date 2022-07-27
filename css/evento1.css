@@ -1,0 +1,15 @@
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: drop-shadow(100%);
+}
+.tomorrowland-logo{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+#formulario{
+    border-color: black;
+    border: black ;
+    border-radius: 10px;
+}

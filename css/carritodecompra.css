@@ -1,0 +1,17 @@
+.imagen-tamaño{
+    height: 30vh;
+    width: 70vh;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+    top: 1px;
+}
+.navbar1{
+    background-color: #ffafcc;
+    margin-top: -10px;
+}
+#footer-design{
+    background: black;
+    color: white;
+}

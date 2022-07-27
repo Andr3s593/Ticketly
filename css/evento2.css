@@ -1,0 +1,32 @@
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: drop-shadow(100%);
+}
+.tomorrowland-logo{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+#formulario{
+    border-color: black;
+    border: black ;
+    border-radius: 10px;
+}
+.imagen-tamaño{
+    height: 30vh;
+    width: 70vh;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+    top: 1px;
+}
+.navbar1{
+    background-color: #ffafcc;
+    margin-top: -10px;
+}
+#footer-design{
+    background: black;
+    color: white;
+}

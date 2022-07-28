@@ -1,3 +1,24 @@
 main>.container {
     padding: 30px 0;
 }
+
+.navbar-brand img {
+    width: 100px;
+    height: 80px;
+    top: 1px;
+}
+
+.navbar1 {
+    background-color: #ffafcc;
+    margin-top: -10px;
+}
+
+#footer-design {
+    background: black;
+    color: white;
+}
+
+#buton-grupito {
+    background: linear-gradient(270deg, #a07fff 0, #b379fa 12.5%, #c472f0 25%, #d26ce6 37.5%, #df65db 50%, #ea5fcf 62.5%, #f359c3 75%, #fa54b6 87.5%, #ff50a9 100%);
+    border-color: #FFAFCC;
+}

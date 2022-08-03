@@ -18,7 +18,7 @@
          <!--navabar-->
     <nav class="navbar navbar1 navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/html/eventos.html">
             <img src="/img/logo/logo_ticketly.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,16 +28,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Boletos</a>
+                <a class="nav-link active" aria-current="page" href="/html/Cboletos.html">Boletos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Formas de pago</a>
+                <a class="nav-link" href="/html/metodoPago.html">Formas de pago</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proximos eventos</a>
-              </li>
+                <a class="nav-link" href="/html/comprasRealizadas.html">Compras Realizadas</a>
+            </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas y Promociones</a>
+                <a class="nav-link" href="/html/promo.html">Ofertas y Promociones</a>
               </li>
               <li class="miperfil">
                 <a class="nav-link" href="/Mi perfil/perfil.html">Mi perfil</a>
@@ -107,32 +107,42 @@
         </div>
     </div>
     <div class="container">
+      <div class="alert alert-danger" role="alert">
+        <h5>Precio:</h5>
+        <p>General: 30$</p>
+        <p>Preferencial: 50$</p>
+        <p>Vip: 100$</p>
+      </div>
+    </div>
+    <div class="container">
         <div class="row d-flex text-center">
             <!--col-->
             <h4 class="card-title pb-2">Datos de la Compra</h4>
             <div id="formulario" class="container text-center">
+              <form action="elegirasientos">
                 <div class="row d-flex items-align-end">
-                    <div  class="col">
-                        <label for="exampleFormControlInput1" class="form-label">Categoría Asiento</label>
-                        <select required="" class="form-select" aria-label="Default select example">
-                            <option selected>-</option>
-                            <option value="1">General</option>
-                            <option value="2">Preferencial</option>
-                            <option value="3">Vip</option>
-                        </select>
-                    </div>
-                    <div class="col order-1">
-                        <label for="exampleFormControlInput1" class="form-label">Número Asientos</label>
-                        <input required="" pattern="[1-9]+" maxlength="1" minlength="1" type="number" max="9" min="1" class="form-control"
-                            id="exampleFormControlInput1" placeholder="-">
-                    </div>
-                    <div class="col order-5">
-                        <label for="exampleFormControlInput1" class="form-label">Precio:</label>
-                        <input class="form-control" id="exampleFormControlInput1" readonly>
-                    </div>
+                  <div class="col">
+                    <label for="categoria" class="form-label">Categoría Asiento</label>
+                    <select id="categoria" required="" class="form-select" >
+                      <option selected></option>
+                      <option value="1">General</option>
+                      <option value="2">Preferencial</option>
+                      <option value="3">Vip</option>
+                    </select>
+                  </div>
+                  <div class="col order-1">
+                    <label for="asientos" class="form-label">Número Asientos</label>
+                    <input required="" pattern="[1-9]+" maxlength="1" minlength="1" type="number" max="9" min="1"
+                      class="form-control" id="asientos" placeholder="-">
+                  </div>
+                  <div class="col order-5">
+                    <label for="precio" class="form-label">Precio:</label>
+                    <input class="form-control" id="precio" readonly>
+                  </div>
                 </div>
                 <br>
                 <input id="buton-grupito" type="submit" value="Elegir Asientos" class="btn btn-success">
+              </form>
             </div>
             <!--col-->
         </div>
@@ -155,8 +165,10 @@
         <h5>Ticketly | Rights Reserved</h5>
       </div>
       <div class="redessociales">
-        <h5>@Ticketly.ec</h5>
-        <h5>Ticketly.ec</h5>
+        <h6 align="center" class="colorletra"><a href="https://instagram.com" class="colorletra"><img
+          src="/img/instagram.png" alt="" width="40px">@ticketly_ec </a> | <a
+      href="https://facebook.com" class="colorletra"><img src="/img/facebook.png" alt="" width="20px">
+      ticketly_ec</a></h6>
       </div>
     </div>
   </footer>

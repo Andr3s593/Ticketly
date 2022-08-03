@@ -94,7 +94,6 @@
 }
 
 .botonf{
-    width: 250px;
     height: 50px;
     border-radius: 15px 15px;
     background-image: linear-gradient(270deg, #a07fff 0, #b379fa 12.5%, #c472f0 25%, #d26ce6 37.5%, #df65db 50%, #ea5fcf 62.5%, #f359c3 75%, #fa54b6 87.5%, #ff50a9 100%);
